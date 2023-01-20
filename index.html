@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi sitio personal</title>
+</head>
+
+<body>
+    <!--Imagen obtenida desde internet-->
+    <!--<img src="https://media.licdn.com/dms/image/D5635AQHmv5Ccpb7F-Q/profile-framedphoto-shrink_200_200/0/1667833520178?e=1674748800&v=beta&t=J6wBB3j0Y3TgddpAgLXshZHaL8hDBuByFAw0nfceT_0" alt="Luis Fernando profile picture">-->
+    <!--Imagen subida desde el servidor local-->
+    <!--Usamos tablas para colocar en la parte de arriba la imagen junto con la información general-->
+    <table>
+        <tr>
+            <td>
+                <img src="images/profilepic-modified.png" alt="Luis Fernando profile picture">
+            </td>
+            <td>
+                <h1>Luis Fernando Gomez Salgado</h1>
+                <p>
+                    <em>Ingeniero en sistemas computacionales</em> en la <strong><a
+                            href="https://euro.ueh.edu.mx/">Universidad Euro
+                            Hispanoamericana</a></strong></a>
+                    <br>
+                    <i>Esta es la etiqueta de italica, solo aplica estilo</i>
+                    <br>
+                    <em>El dinero</em> es importante pero <strong>la salud</strong> lo es más.
+                    <!--Es más recomendable el uso de las etiquetas em para cursivas y strong para negritas-->
+                </p>
+            </td>
+        </tr>
+    </table>
+    <hr noshade>
+    <h2>EDUCACIÓN</h2>
+    <!-- Lista desordenada(solo viñetas) ul(unordered list)-->
+    <ul>
+        <li>Escuela Secundaria Técnica 105 <strong>2011-2014</strong></li>
+        <li>Colegio Preparatorio de Xalapa Diurno <strong>2014-2017</strong></li>
+        <li>Universidad Euro Hispanoamericana <strong>2018-2022</strong></li>
+    </ul>
+    <hr noshade>
+    <h2>EXPERIENCIA DE TRABAJO</h2>
+    <!--Comenzamos a utilizar tablas, etiqueta <table> para generar nueva tabla ,la etiqueta <tr></tr> indican filas en la tabla las cuales pueden contener las etiquetas <td></td> que implican los datos en una fila-->
+    <table>
+        <!--Las tablas tienen la misma estructura que el html, en este caso las etiquetas son <thead></thead> <tbody></tbody> y <tfoot></tfoot>-->
+        <thead>
+            <tr>
+                <th>Fechas</th>
+                <th>Trabajo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2017-2018</td>
+                <td>Trabajo en farmacia Ohana, administración, inventarios y cobranza</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Participació en programa Seeds for the future 2022 y elaboración de proyecto</td>
+            </tr>
+            <tr>
+                <td>2019-Presente</td>
+                <td>Ingeniero en sistemas y programador en Universidad Euro Hispanoamericana</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr noshade>
+    <!--Aplicando una tabla anidada para introducir 2 o mas datos en una celda que a su vez forma parte de una tabla-->
+    <h2>HABILIDADES</h2>
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Resolución de problemas</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Habilidades Blandas</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Programación</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Soporte técnico</td>
+                        <td>⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <h3><a href="hobbies.html">MIS HOBBIES</a></h3>
+    <h3><a href="contacto.html">CONTACTO</a></h3>
+</body>
+
+</html>
